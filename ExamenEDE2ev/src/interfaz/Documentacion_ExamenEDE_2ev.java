@@ -1,4 +1,9 @@
 package interfaz;
+/**
+ * @author Ander
+ * 
+ * @version "Version 1,2019"
+ */
 
 import java.awt.EventQueue;
 import java.awt.Font;
@@ -15,7 +20,7 @@ import javax.swing.border.LineBorder;
 import javax.swing.SwingConstants;
 
 @SuppressWarnings("serial")
-public class Principal extends JFrame {
+public class Documentacion_ExamenEDE_2ev extends JFrame {
 	private JPanel contentPane;
 
 	/**
@@ -25,7 +30,7 @@ public class Principal extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Principal frame = new Principal();
+					Documentacion_ExamenEDE_2ev frame = new Documentacion_ExamenEDE_2ev();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -37,7 +42,7 @@ public class Principal extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Principal() {
+	public Documentacion_ExamenEDE_2ev() {
 		setTitle("Practica NEODATIS");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
